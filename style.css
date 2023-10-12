@@ -1,0 +1,36 @@
+.relative {
+    position: relative;
+}
+
+.NavBar {
+    width: 100%;
+    height: 34px;
+    position:fixed;
+    background: #F29696;
+    
+}
+
+.SearchBar {
+    width: 60%;
+     height: 34px;
+     background: #E7E7E7; 
+    display:flex;
+    margin-left: 300px; 
+    position:fixed;
+}
+
+.filter {
+    width: 5%;
+     height: 34px;
+       background: #BCADAD;
+       position: fixed;
+}
+  #menu ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline-flex
+  }
+  #menu li{
+    display: flex;
+  }
