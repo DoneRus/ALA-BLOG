@@ -120,23 +120,34 @@
     
 	.blog-window { 
 		border: 2px solid rgb(51, 173, 124);
-	    width: 60%;
+	    width: 900px;
 		height: 20% ;
 		background-color: #D6D961;
-		margin-top: 10px;
+		margin-top: 20px;
+		margin-bottom: 20px;
          
 	}
+    .blog-window {
+
+	}
+	.blog-title{
+    font-size: 30px;
+	display: flex;
+	justify-self: flex-start;
+	}
+
 	.blog-selection{
 		border: 2px solid black;
 		position: absolute;
-		padding: 1% 17% 1% 17%  ;
+
 		margin: 5% 17% 10% 320px;
 		display: flex;
 		flex-direction: column;
 		
 
-
-
-
-
+	}
+	.blog-sub-title{
+		display: flex;
+		justify-self: flex-start;
+ 
 	}
