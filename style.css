@@ -126,9 +126,7 @@
 		margin-top: 20px;
 		margin-bottom: 20px;
 	}
-    .blog-window {
 
-	}
 	.blog-title{
     font-size: 30px;
 	display: flex;
@@ -149,4 +147,36 @@
 		display: flex;
 		justify-self: flex-start;
  
+	}
+
+	.account-box {
+		border: 2px solid rgb(0, 0, 0);
+	    width: 450px;
+		height: 30% ;
+		background-color: #D6D961;
+		margin: 15% 0% 0% 35%;
+		position: absolute;
+		padding: 30px;
+	}
+
+	.item {
+		width: fit-content;
+		background-color: #8ca0ff;
+		padding: 5px;
+		margin-bottom: 1em;
+	}
+	.absolute {
+		position: absolute;
+	}
+
+	.account-create-title {
+		font-size: 30px;
+		display: flex;
+		justify-content: center;
+
+		
+	}
+	.start-text {
+		display: flex;
+		justify-content: flex-start;
 	}
